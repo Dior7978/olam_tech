@@ -20,11 +20,7 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="relative">
-            <img
-              src="../images/Hero-section.pn"
-              alt="IT Solutions"
-              className="w-full h-auto rounded-lg shadow-lg"
-            />
+            
             <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-bl from-gray-900 to-transparent opacity-50" />
           </div>
         </div>
