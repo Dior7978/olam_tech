@@ -1,5 +1,5 @@
 import React from 'react';
-import { Bot, Globe, Palette, MessageSquare } from 'lucide-react';
+import { Bot, Globe, Palette } from 'lucide-react';
 import PagesHeroSection from '../components/PagesHeroSection';
 import CallToAction from '../components/CallToAction';
 

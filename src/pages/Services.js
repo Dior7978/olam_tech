@@ -2,7 +2,7 @@
 import React from 'react';
 import PagesHeroSection from '../components/PagesHeroSection';
 import ServiceSection from '../components/ServiceSection';
-import { CheckCircle, Clock, ArrowRight } from 'lucide-react';
+import { CheckCircle, ArrowRight } from 'lucide-react';
 import CallToAction from '../components/CallToAction';
 
 const Services = () => {
