@@ -21,41 +21,8 @@ const teamMembers = [
     }
   },
   {
-    name: 'Jackson Rwegasira',
-    role: 'CEO & Founder',
-    image: './images/new2.png',
-    socials: {
-      facebook: '#',
-      twitter: '#',
-      linkedin: '#',
-      instagram: '#'
-    }
-  },
-  {
-    name: 'Jackson Rwegasira',
-    role: 'CEO & Founder',
-    image: './images/new2.png',
-    socials: {
-      facebook: '#',
-      twitter: '#',
-      linkedin: '#',
-      instagram: '#'
-    }
-  },
-  {
-    name: 'Jackson Rwegasira',
-    role: 'CEO & Founder',
-    image: './images/new2.png',
-    socials: {
-      facebook: '#',
-      twitter: '#',
-      linkedin: '#',
-      instagram: '#'
-    }
-  },
-  {
-    name: 'Justo Misso',
-    role: 'Financial Manager',
+    name: 'Joan Rhobi',
+    role: 'Chief Technology Officer (Chatbot & Frontend developer)',
     image: './images/new2.png',
     socials: {
       facebook: '#',
@@ -66,7 +33,40 @@ const teamMembers = [
   },
   {
     name: 'Rwegasira Byabato',
-    role: 'Project Manager',
+    role: 'Project Manager (Chatbot & Backend developer)',
+    image: './images/new2.png',
+    socials: {
+      facebook: '#',
+      twitter: '#',
+      linkedin: '#',
+      instagram: '#'
+    }
+  },
+  {
+    name: 'Dionis Lenga',
+    role: ' Head of Design (Graphics Designer | Chatbot  & Frontend Developer)',
+    image: './images/new2.png',
+    socials: {
+      facebook: '#',
+      twitter: '#',
+      linkedin: '#',
+      instagram: '#'
+    }
+  },
+  {
+    name: 'Justo Matiku',
+    role: 'Finance Manager',
+    image: './images/new2.png',
+    socials: {
+      facebook: '#',
+      twitter: '#',
+      linkedin: '#',
+      instagram: '#'
+    }
+  },
+  {
+    name: 'Johansen Mwijage',
+    role: 'Creative Director ( Graphics Designer | Chatbot & Backend Developer)',
     image: './images/new2.png',
     socials: {
       facebook: '#',
@@ -77,7 +77,106 @@ const teamMembers = [
   },
   {
     name: 'Edmund Ngowi',
-    role: 'Security Consultant',
+    role: 'Chatbot & Backend Developer',
+    image: './images/new2.png',
+    socials: {
+      facebook: '#',
+      twitter: '#',
+      linkedin: '#',
+      instagram: '#'
+    }
+  },
+  {
+    name: 'Jolene Msuya',
+    role: 'Chatbot & Application Developer',
+    image: './images/new2.png',
+    socials: {
+      facebook: '#',
+      twitter: '#',
+      linkedin: '#',
+      instagram: '#'
+    }
+  },
+  {
+    name: 'David Kiwelu',
+    role: 'Chatbot & Application Developer',
+    image: './images/new2.png',
+    socials: {
+      facebook: '#',
+      twitter: '#',
+      linkedin: '#',
+      instagram: '#'
+    }
+  },
+  {
+    name: 'Richardson Pilot',
+    role: 'Chatbot & Frontend Developer',
+    image: './images/new2.png',
+    socials: {
+      facebook: '#',
+      twitter: '#',
+      linkedin: '#',
+      instagram: '#'
+    }
+  },
+  {
+    name: 'Glory Foya',
+    role: 'Chatbot & Backend Developer',
+    image: './images/new2.png',
+    socials: {
+      facebook: '#',
+      twitter: '#',
+      linkedin: '#',
+      instagram: '#'
+    }
+  },
+  {
+    name: 'Kenneth Pius',
+    role: 'Chatbot & Backend Developer',
+    image: './images/new2.png',
+    socials: {
+      facebook: '#',
+      twitter: '#',
+      linkedin: '#',
+      instagram: '#'
+    }
+  },
+  {
+    name: 'Sumaiya Kileo',
+    role: 'Chatbot & Frontend Developer',
+    image: './images/new2.png',
+    socials: {
+      facebook: '#',
+      twitter: '#',
+      linkedin: '#',
+      instagram: '#'
+    }
+  },
+  {
+    name: 'Sabra Panduka',
+    role: 'Partnerships and Collaborations Manager',
+    image: './images/new2.png',
+    socials: {
+      facebook: '#',
+      twitter: '#',
+      linkedin: '#',
+      instagram: '#'
+    }
+  },
+  {
+    name: 'Faraja Mwarabu',
+    role: 'Marketing Specialist',
+    image: './images/new2.png',
+    socials: {
+      facebook: '#',
+      twitter: '#',
+      linkedin: '#',
+      instagram: '#'
+    }
+  },
+  {
+    name: 'Joan Misso',
+    role: 'Digital Marketing Manager',
     image: './images/new2.png',
     socials: {
       facebook: '#',

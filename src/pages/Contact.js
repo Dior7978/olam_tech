@@ -46,7 +46,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-semibold text-lg mb-2">Office Address</h3>
-                <p className="text-gray-600">25 Hilton Street, Miami</p>
+                <p className="text-gray-600">25 Hilton Street, Kinondoni</p>
                 <p className="text-gray-600">Dar es salaam, Tanzania</p>
               </div>
             </div>

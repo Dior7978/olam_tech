@@ -77,9 +77,15 @@ const TestimonialSection = () => {
     <div className="bg-[#cbebf6] py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          <span className="text-[#84c43f] uppercase tracking-[4px] text-sm">
-            Testimonials
-          </span>
+        <div className="inline-block mx-auto">
+            <div className="flex items-center justify-center mb-3">
+              <div className="w-12 h-1 bg-[#84c43f] mr-3"></div>
+              <span className="text-[#84c43f] uppercase tracking-widest text-xs font-semibold">
+                testimonials
+              </span>
+              <div className="w-12 h-1 bg-[#84c43f] ml-3"></div>
+            </div>
+          </div>
           <h2 className="text-3xl font-bold text-gray-900 mt-4">
             What Our Clients Say
           </h2>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { CheckCircle, Users, BarChart, Globe } from 'lucide-react';
 import PagesHeroSection from '../components/PagesHeroSection';
-import TeamMembers from '../components/TeamMember';
+import TeamSection from '../components/TeamSection'
 import CallToAction from '../components/CallToAction';
 
 const About = () => {
@@ -153,7 +153,7 @@ const About = () => {
         </div>
       </div>
 
-    <TeamMembers />
+    <TeamSection />
       {/* Call to Action */}
     <CallToAction />
     </div>

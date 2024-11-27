@@ -68,9 +68,15 @@ const PricingSection = () => {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-            <span className="text-[#84c43f] uppercase" style={{fontSize:'14px', letterSpacing:'4px'}}>
-            our pricing
-            </span>
+        <div className="inline-block mx-auto">
+            <div className="flex items-center justify-center mb-3">
+              <div className="w-12 h-1 bg-[#84c43f] mr-3"></div>
+              <span className="text-[#84c43f] uppercase tracking-widest text-xs font-semibold">
+                Our Pricing
+              </span>
+              <div className="w-12 h-1 bg-[#84c43f] ml-3"></div>
+            </div>
+          </div>
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Services & Pricing</h2>
           <p className="text-lg text-gray-600">
             Comprehensive technology solutions tailored to elevate your business. Choose the service that best fits your needs.
