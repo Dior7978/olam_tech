@@ -64,7 +64,7 @@ const Footer = () => {
               <h3 className="text-xl font-bold mb-6">Our Services</h3>
               <ul className="space-y-4">
                 <li>
-                  <a href="/services" className="text-gray-300 hover:text-[#84c43f] transition-colors">AI Chatbot Development</a>
+                  <a href="/services/shule-kiganjani" className="text-gray-300 hover:text-[#84c43f] transition-colors">AI Chatbot Development</a>
                 </li>
                 <li>
                   <a href="/services" className="text-gray-300 hover:text-[#84c43f] transition-colors">Web Development</a>

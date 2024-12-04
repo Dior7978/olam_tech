@@ -1,4 +1,5 @@
 import React from 'react';
+import { ArrowRight } from 'lucide-react';
 
 const ChatbotServiceSection = () => {
   const services = [
@@ -40,8 +41,12 @@ const ChatbotServiceSection = () => {
         <div className="max-w-2xl mb-16">
           <div className="flex items-center gap-2 mb-4">
             <span className="text-[#84c43f] uppercase text-sm tracking-wider" style={{fontSize:'14px', letterSpacing:'4px'}}>
-              our ai chatbots
+              shule kiganjani
             </span>
+            <button className="bg-blue-600 hover:bg-blue-700 text-white px-10 py-2 rounded-full flex items-center justify-center gap-2 transition-colors">
+                <a href='/services/shule-kiganjani'>View More</a><ArrowRight className="w-4 h-4" />
+
+              </button>
           </div>
           
           <h2 className="text-2xl md:text-4xl font-bold text-white mb-8 leading-tight">
