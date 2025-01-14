@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Projects from "./pages/Projects";
 import ShuleKiganjani from "./pages/ShuleKiganjani";
+import Gallery from "./pages/Gallery";
 
 
 function App(){
@@ -24,6 +25,7 @@ function App(){
                     <Route path='/about' element={<About />} />
                     <Route path='/services' element={<Services />} />
                     <Route path='/projects' element={<Projects />} />
+                    <Route path='/gallery' element={<Gallery />} />
                     <Route path='services/shule-kiganjani' element={<ShuleKiganjani />} />
                 </Routes>
                 <Footer />

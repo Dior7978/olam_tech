@@ -3,6 +3,7 @@ import { MessageSquare, Bot, Database, Users, BarChart, ChevronRight, School, Ph
 import PagesHeroSection from '../components/PagesHeroSection';
 
 const ShuleKiganjani = () => {
+  
   const features = [
     {
       icon: <MessageSquare className="w-8 h-8 text-[#84c43f]" />,
@@ -30,12 +31,12 @@ const ShuleKiganjani = () => {
     {
       title: "WhatsApp Integration Demo",
       description: "See how easily your school can connect with parents and students through WhatsApp automation.",
-      placeholder: "./videos/view_results.mp4"
+      placeholder: "../videos/shule_kiswahili.mp4"
     },
     {
       title: "Student Registration Process",
       description: "Watch how the bot handles new student registrations and data management.",
-      placeholder: "../videos/view_results.mp4"
+      placeholder: "../videos/shule_intro.mp4"
     },
     {
       title: "Results & Reports Access",
@@ -201,26 +202,25 @@ const ShuleKiganjani = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {demoVideos.map((video, index) => (
               <div key={index} className="group cursor-pointer">
-                <div className="relative mb-4 rounded-lg overflow-hidden">
-                  <img 
-                    src={video.placeholder}
-                    alt={video.title}
-                    className="w-full transition-transform group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                    <MessageSquare className="w-16 h-16 text-white" />
-                  </div>
-                </div>
-                <h3 className="text-xl font-semibold mb-2">{video.title}</h3>
+                <video 
+                  controls 
+                  className="w-full rounded-lg shadow-lg transition-transform group-hover:scale-105"
+                  poster="../images/demo-placeholder.png"
+                >
+                  <source src={video.placeholder} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+                <h3 className="text-xl font-semibold mt-4">{video.title}</h3>
                 <p className="text-gray-600">{video.description}</p>
               </div>
+
             ))}
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-[#c4c4c4]">
+      <section className="py-16 bg-[#6db1d8]">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-6">Ready to Modernize Your School's Communication?</h2>
           <p className="text-white mb-8 max-w-2xl mx-auto">Join schools already using Shule Kiganjani to enhance their operations and parent engagement.</p>

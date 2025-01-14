@@ -1,21 +1,34 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const CompanyWelcome = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  }, []);
+
   return (
     <div className="bg-white py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-4' data-aos="fade-right">
             <div className="space-y-4 flex flex-col md:flex-col">
               <img
                 src="./images/laptop.jpg"
                 alt="Business people"
                 className="rounded-lg shadow-lg mb-4 md:mb-0 w-full"
+                data-aos="zoom-in"
+                data-aos-delay="200"
               />
               <img
                 src="./images/ai.jpg"
                 alt="Business people"
                 className="rounded-lg shadow-lg w-full"
+                data-aos="zoom-in"
+                data-aos-delay="400"
               />
             </div>
             <div className='px-0 md:px-4 mt-4 md:mt-0'>
@@ -23,11 +36,13 @@ const CompanyWelcome = () => {
                 src="./images/team.jpg"
                 alt="Business people"
                 className="rounded-lg shadow-lg w-full h-auto md:h-[25.9rem] object-cover"
+                data-aos="zoom-in"
+                data-aos-delay="600"
               />
             </div>
           </div>
 
-          <div className="space-y-4 mt-6 md:mt-0" style={{lineHeight:1.9}}>
+          <div className="space-y-4 mt-6 md:mt-0" style={{lineHeight:1.9}} data-aos="fade-left">
             <span className='text-[#84c43f] uppercase' style={{fontSize:'14px', letterSpacing:'4px'}}>
               Welcome to Olam Technologies
             </span>
@@ -39,7 +54,7 @@ const CompanyWelcome = () => {
               such as healthcare, finance, education, and manufacturing. They may work
               on a project basis...
             </p>
-            <div className="space-y-2">
+            <div className="space-y-2" data-aos="fade-up" data-aos-delay="200">
               <div className="flex items-center space-x-2">
                 <div className="bg-blue-500 rounded-full p-2 flex-shrink-0">
                   <svg
@@ -92,9 +107,9 @@ const CompanyWelcome = () => {
                 <span className="text-gray-900 font-medium text-sm md:text-base">Reliable & Experienced Team</span>
               </div>
             </div>
-            <div className="flex space-x-4">
+            <div className="flex space-x-4" data-aos="fade-up" data-aos-delay="400">
               <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md text-sm md:text-base">
-                Read More
+                <a href='/about'>Read More</a>
               </button>
             </div>
           </div>
