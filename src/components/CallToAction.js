@@ -15,9 +15,11 @@ const CallToAction = () => {
         <p className="mb-8">
           Let's work together to bring your vision to life with our innovative solutions.
         </p>
-        <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-          Get Started
-        </button>
+        <a href='/contact'>
+          <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-600 hover:text-white transition-colors">
+            Get Started
+          </button>
+        </a>
       </div>
     </div>
   );

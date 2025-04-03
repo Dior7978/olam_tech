@@ -1,5 +1,6 @@
 import React from 'react';
-import { Phone, Mail, MapPin, Clock, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock } from 'lucide-react';
+import { FaFacebook, FaInstagram, FaLinkedin, FaTiktok } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -25,17 +26,17 @@ const Footer = () => {
                 We are a reliable and consistent IT solutions provider dedicated to delivering innovative technology services to businesses of all sizes.
               </p>
               <div className="flex space-x-4">
-                <a href="#" className="w-10 h-10 rounded-full bg-[#292d6e] flex items-center justify-center hover:bg-[#84c43f] transition-colors">
-                  <Facebook className="w-5 h-5" />
+                <a href="" className="w-10 h-10 rounded-full bg-[#292d6e] flex items-center justify-center hover:bg-[#84c43f] transition-colors">
+                  <FaFacebook className="w-5 h-5" />
                 </a>
-                <a href="#" className="w-10 h-10 rounded-full bg-[#292d6e] flex items-center justify-center hover:bg-[#84c43f] transition-colors">
-                  <Twitter className="w-5 h-5" />
+                <a href="" className="w-10 h-10 rounded-full bg-[#292d6e] flex items-center justify-center hover:bg-[#84c43f] transition-colors">
+                  <FaTiktok className="w-5 h-5" />
                 </a>
-                <a href="#" className="w-10 h-10 rounded-full bg-[#292d6e] flex items-center justify-center hover:bg-[#84c43f] transition-colors">
-                  <Linkedin className="w-5 h-5" />
+                <a href="" className="w-10 h-10 rounded-full bg-[#292d6e] flex items-center justify-center hover:bg-[#84c43f] transition-colors">
+                  <FaLinkedin className="w-5 h-5" />
                 </a>
-                <a href="#" className="w-10 h-10 rounded-full bg-[#292d6e] flex items-center justify-center hover:bg-[#84c43f] transition-colors">
-                  <Instagram className="w-5 h-5" />
+                <a href="" className="w-10 h-10 rounded-full bg-[#292d6e] flex items-center justify-center hover:bg-[#84c43f] transition-colors">
+                  <FaInstagram className="w-5 h-5" />
                 </a>
               </div>
             </div>
@@ -114,13 +115,13 @@ const Footer = () => {
                 © {new Date().getFullYear()} Olam Technologies. All rights reserved.
               </div>
               <div className="flex space-x-6">
-                <a href="/privacy" className="text-gray-400 hover:text-[#84c43f] text-sm transition-colors">
+                <a href="" className="text-gray-400 hover:text-[#84c43f] text-sm transition-colors">
                   Privacy Policy
                 </a>
-                <a href="/terms" className="text-gray-400 hover:text-[#84c43f] text-sm transition-colors">
+                <a href="" className="text-gray-400 hover:text-[#84c43f] text-sm transition-colors">
                   Terms of Service
                 </a>
-                <a href="/sitemap" className="text-gray-400 hover:text-[#84c43f] text-sm transition-colors">
+                <a href="" className="text-gray-400 hover:text-[#84c43f] text-sm transition-colors">
                   Sitemap
                 </a>
               </div>

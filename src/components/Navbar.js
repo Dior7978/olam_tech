@@ -53,7 +53,7 @@ const Navbar = () => {
 
             {/* Desktop Navigation Links */}
             <div className="hidden md:flex items-center space-x-8">
-              <a href="/" className="text-[#0B2A97] font-medium flex items-center">
+              <a href="/" className="text-gray-700 font-medium flex items-center">
                 Home  
               </a>
               <a href="/about" className="text-gray-700 font-medium">About Us</a>
@@ -72,18 +72,21 @@ const Navbar = () => {
                 </div>
                 <div className="flex flex-col">
                   <span className="text-xs text-gray-500">Quick Call</span>
-                  <span className="text-sm font-medium">(+255) 627 404 843</span>
+                  <span className="text-sm font-medium"><a href='tel:+255627404843'>(+255) 627 404 843</a></span>
                 </div>
               </div>
-              <button className="bg-[#292d6e] text-white px-6 py-2.5 rounded-full hover:bg-[#3c566c] transition-colors">
-                <a href='/contact'>Get a Quote</a>
-              </button>
+                <a href='/services/shule-kiganjani'>
+                  <button className="bg-[#292d6e] text-white px-6 py-2.5 rounded-full hover:bg-[#3c566c] transition-colors">
+                    Bot Service
+                  </button>
+
+                </a>
             </div>
           </div>
 
           {/* Mobile Menu Overlay */}
           {mobileMenuOpen && (
-            <div className="absolute top-full left-0 w-full bg-white shadow-lg md:hidden">
+            <div className="absolute top-full left-0 w-full bg-white shadow-lg md:hidden z-50">
               <div className="flex flex-col items-center py-6 space-y-4">
                 <a href="/" className="text-[#0B2A97] font-medium">Home</a>
                 <a href="/about" className="text-gray-700 font-medium">About Us</a>
@@ -98,14 +101,16 @@ const Navbar = () => {
                   </div>
                   <div className="flex flex-col">
                     <span className="text-xs text-gray-500">Quick Call</span>
-                    <span className="text-sm font-medium">(904) 12-366-25</span>
+                    <span className="text-sm font-medium"><a href='tel:+255627404843'>(+255) 627 404 843</a></span>
                   </div>
                 </div>
 
                 {/* Mobile CTA Button */}
+                <a href="/services/shule-kiganjani">
                 <button className="bg-[#292d6e] text-white px-6 py-2.5 rounded-full hover:bg-[#3c566c] transition-colors">
-                  Get a Quote
+                  Bot Service
                 </button>
+                </a>
 
                 {/* Mobile Business Hours */}
                 <div className="flex items-center text-sm text-gray-600 mt-4">

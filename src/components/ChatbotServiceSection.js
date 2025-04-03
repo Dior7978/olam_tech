@@ -21,10 +21,10 @@ const ChatbotServiceSection = () => {
   ];
 
   return (
-    <div className="relative bg-[#0B1340] py-10 px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <div className="relative bg-[#0B1340] py-10 px-4 sm:px-6 lg:px-8 overflow-hidden max-sm:bg-contain">
       {/* Background Image */}
       <div 
-        className="absolute inset-0 z-0"
+        className="absolute inset-0 z-0 max-sm:bg-contain"
         style={{
           backgroundImage: "url('./images/chatbot.jpg')",
           backgroundPosition: 'right center',
@@ -43,7 +43,7 @@ const ChatbotServiceSection = () => {
             <span className="text-[#84c43f] uppercase text-sm tracking-wider" style={{fontSize:'14px', letterSpacing:'4px'}}>
               shule kiganjani
             </span>
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-10 py-2 rounded-full flex items-center justify-center gap-2 transition-colors">
+            <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-full flex items-center justify-center gap-2 transition-colors">
                 <a href='/services/shule-kiganjani'>View More</a><ArrowRight className="w-4 h-4" />
 
               </button>

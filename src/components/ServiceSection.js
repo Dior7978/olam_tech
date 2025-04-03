@@ -2,7 +2,7 @@ import React from 'react';
 import { Bot, Globe, Smartphone, Palette } from 'lucide-react';
 
 const ServiceCard = ({ icon: Icon, title, description }) => (
-  <div className="bg-white p-8 rounded-lg shadow-sm shadow-md transition-shadow">
+  <div className="bg-white p-8 rounded-lg shadow-md transition-shadow">
     <div className="mb-4">
       <Icon className="w-12 h-12 text-blue-500" />
     </div>
@@ -54,7 +54,7 @@ const ServiceSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Main Service Card */}
         <div className="md:col-span-1">
-          <div className="bg-white rounded-lg overflow-hidden shadow-sm shadow-md transition-shadow">
+          <div className="bg-white rounded-lg overflow-hidden shadow-md transition-shadow">
             <img 
               src="./images/team2.jpg"
               alt="IT Management"
@@ -67,10 +67,13 @@ const ServiceSection = () => {
               <p className="text-gray-600 mb-4">
               Enhance team productivity and streamline workflows with our collaborative tools and solutions. Our expert team can help you implement effective collaboration strategies, choose the right tools, and train your team to maximize productivity and efficiency.
               </p>
-              <button className="bg-blue-600 text-white px-6 py-2 rounded-full 
-                hover:bg-blue-700 transition-colors">
-                Get Our Help
-              </button>
+              <a href='/contact'>
+                <button className="bg-blue-600 text-white px-6 py-2 rounded-full 
+                  hover:bg-blue-700 transition-colors">
+                  Get Our Help
+                </button>
+
+              </a>
             </div>
           </div>
         </div>

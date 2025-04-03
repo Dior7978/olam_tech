@@ -15,18 +15,18 @@ const CompanyWelcome = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className='grid grid-cols-1 md:grid-cols-2 gap-4' data-aos="fade-right">
-            <div className="space-y-4 flex flex-col md:flex-col">
+            <div className="space-y-4 flex flex-col md:flex-col max-sm:-mb-12">
               <img
                 src="./images/laptop.jpg"
                 alt="Business people"
                 className="rounded-lg shadow-lg mb-4 md:mb-0 w-full"
                 data-aos="zoom-in"
-                data-aos-delay="200"
+                data-aos-delay="300"
               />
               <img
                 src="./images/ai.jpg"
                 alt="Business people"
-                className="rounded-lg shadow-lg w-full"
+                className="rounded-lg shadow-lg w-full max-sm:hidden"
                 data-aos="zoom-in"
                 data-aos-delay="400"
               />
@@ -35,9 +35,9 @@ const CompanyWelcome = () => {
               <img
                 src="./images/team.jpg"
                 alt="Business people"
-                className="rounded-lg shadow-lg w-full h-auto md:h-[25.9rem] object-cover"
+                className="rounded-lg shadow-lg w-full h-auto md:h-[25.9rem] object-cover max-sm:hidden"
                 data-aos="zoom-in"
-                data-aos-delay="600"
+                data-aos-delay="500"
               />
             </div>
           </div>
@@ -108,9 +108,12 @@ const CompanyWelcome = () => {
               </div>
             </div>
             <div className="flex space-x-4" data-aos="fade-up" data-aos-delay="400">
-              <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md text-sm md:text-base">
-                <a href='/about'>Read More</a>
-              </button>
+                <a href='/about'>
+                  <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-2xl text-sm md:text-base">
+                    Read More
+                  </button>
+
+                </a>
             </div>
           </div>
         </div>

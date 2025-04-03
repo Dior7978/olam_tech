@@ -83,17 +83,21 @@ const WhyChooseUsSection = () => {
 
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
-              <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full flex items-center justify-center gap-2 transition-colors">
-                Hire Us
-                <ArrowRight className="w-4 h-4" />
-              </button>
+              <a href='/contact'>
+                <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full flex items-center justify-center gap-2 transition-colors">
+                  Hire Us
+                  <ArrowRight className="w-4 h-4" />
+                </button>
+              </a>
               
+            <a href='/gallery'>
               <button className="flex items-center justify-center gap-2 text-gray-700 hover:text-blue-600 transition-colors">
-                <div className="w-10 h-10 rounded-full border-2 border-gray-300 flex items-center justify-center">
+                <div className="w-10 h-10 rounded-full border-2 border-blue-600 flex items-center justify-center">
                   <Play className="w-4 h-4" />
                 </div>
-                Watch Video
+                View Gallery
               </button>
+            </a>
             </div>
           </div>
         </div>

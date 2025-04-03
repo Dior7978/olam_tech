@@ -13,7 +13,7 @@ const Contact = () => {
       
       {/* Contact Info Cards */}
       <div className="max-w-6xl mx-auto px-4 relative z-10">
-        <div className="bg-white rounded-lg shadow-lg p-8 transform -translate-y-16">
+        <div className="bg-white rounded-lg shadow-lg p-8 transform -translate-y-14">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* Phone */}
             <div className="flex items-start space-x-4">
@@ -34,7 +34,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-semibold text-lg mb-2">Email Address</h3>
-                <p className="text-blue-600">olamtechnologies.co@gmail.com</p>
+                <a href="mailto:olamtechnologies.co@gmail.com"className="text-blue-600">olamtechnologies.co@gmail.com</a>
                 
               </div>
             </div>
@@ -67,27 +67,27 @@ const Contact = () => {
             <h3 className="font-semibold mb-4">Your benefits:</h3>
             <div className="grid grid-cols-2 gap-4">
               <div className="flex items-center space-x-2">
-                <div className="w-4 h-4 rounded-full border-2 border-blue-600"></div>
+                <div className="w-3 h-3 rounded-full border-2 border-blue-600"></div>
                 <span className="text-gray-600">Client-oriented</span>
               </div>
               <div className="flex items-center space-x-2">
-                <div className="w-4 h-4 rounded-full border-2 border-blue-600"></div>
+                <div className="w-3 h-3 rounded-full border-2 border-blue-600"></div>
                 <span className="text-gray-600">Independent</span>
               </div>
               <div className="flex items-center space-x-2">
-                <div className="w-4 h-4 rounded-full border-2 border-blue-600"></div>
+                <div className="w-3 h-3 rounded-full border-2 border-blue-600"></div>
                 <span className="text-gray-600">Competent</span>
               </div>
               <div className="flex items-center space-x-2">
-                <div className="w-4 h-4 rounded-full border-2 border-blue-600"></div>
+                <div className="w-3 h-3 rounded-full border-2 border-blue-600"></div>
                 <span className="text-gray-600">Results-driven</span>
               </div>
               <div className="flex items-center space-x-2">
-                <div className="w-4 h-4 rounded-full border-2 border-blue-600"></div>
+                <div className="w-3 h-3 rounded-full border-2 border-blue-600"></div>
                 <span className="text-gray-600">Problem-solving</span>
               </div>
               <div className="flex items-center space-x-2">
-                <div className="w-4 h-4 rounded-full border-2 border-blue-600"></div>
+                <div className="w-3 h-3 rounded-full border-2 border-blue-600"></div>
                 <span className="text-gray-600">Transparent</span>
               </div>
             </div>
@@ -95,10 +95,11 @@ const Contact = () => {
 
           {/* Right Column - Form */}
           <div>
-            <form className="space-y-6">
+            <form className="space-y-6" action='https://formspree.io/f/xeoarlzj' method='POST'>
               <div>
                 <input
                   type="text"
+                  name="name"
                   placeholder="Enter Your Name"
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-600 focus:border-transparent"
                 />
@@ -108,6 +109,7 @@ const Contact = () => {
               <div>
                 <input
                   type="email"
+                  name='email'
                   placeholder="Enter your Email Address"
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-600 focus:border-transparent"
                 />
@@ -116,6 +118,7 @@ const Contact = () => {
               <div>
                 <textarea
                   placeholder="Write your Message"
+                  name='message'
                   rows={6}
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-600 focus:border-transparent"
                 ></textarea>

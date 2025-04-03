@@ -6,7 +6,7 @@ const Gallery = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [activeImage, setActiveImage] = useState("");
 
-  // Replace these with your actual image URLs
+  // image urls
   const galleryImages = [
     "./images/devices.jpg",
     "./images/devices.jpg",
@@ -33,13 +33,13 @@ const Gallery = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <PagesHeroSection title="Gallery" breadcrumb="Home / Gallery" />
+      <PagesHeroSection title="Our Gallery" breadcrumb="Gallery" />
 
       {/* Gallery Section */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Gallery</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Important Moments</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Explore moments captured from our services, events, and projects.
             </p>

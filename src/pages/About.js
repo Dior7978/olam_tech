@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckCircle, Users, BarChart, Globe } from 'lucide-react';
+import { CheckCircle, Users, BarChart, Globe, Bot, Smartphone, Palette } from 'lucide-react';
 import PagesHeroSection from '../components/PagesHeroSection';
 import TeamSection from '../components/TeamSection'
 import CallToAction from '../components/CallToAction';
@@ -12,7 +12,7 @@ const About = () => {
         breadcrumb="About"
       />
 
-<div className="max-w-6xl mx-auto px-4 py-16">
+    <div className="max-w-6xl mx-auto px-4 py-16">
         <div className="grid md:grid-cols-2 gap-12">
           {/* Vision */}
           <div className='shadow-lg p-8 rounded-lg'>
@@ -56,7 +56,7 @@ const About = () => {
             {/* AI Chatbot */}
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <div className="h-12 w-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                <Users className="h-6 w-6 text-blue-600" />
+                <Bot className="h-6 w-6 text-blue-600" />
               </div>
               <h3 className="text-xl font-semibold mb-3">AI Chatbot Development</h3>
               <p className="text-gray-600">
@@ -80,7 +80,7 @@ const About = () => {
             {/* App Development */}
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <div className="h-12 w-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                <BarChart className="h-6 w-6 text-blue-600" />
+                <Smartphone className="h-6 w-6 text-blue-600" />
               </div>
               <h3 className="text-xl font-semibold mb-3">Application Development</h3>
               <p className="text-gray-600">
@@ -92,7 +92,7 @@ const About = () => {
             {/* Graphics Design */}
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <div className="h-12 w-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                <CheckCircle className="h-6 w-6 text-blue-600" />
+                <Palette className="h-6 w-6 text-blue-600" />
               </div>
               <h3 className="text-xl font-semibold mb-3">Graphics Design</h3>
               <p className="text-gray-600">

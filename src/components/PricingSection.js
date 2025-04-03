@@ -15,7 +15,7 @@ const PricingSection = () => {
         "24/7 Automated Support",
         "Custom Training Data"
       ],
-      startingPrice: "2,499",
+      startingPrice: "200",
       new: true 
     },
     {
@@ -30,7 +30,7 @@ const PricingSection = () => {
         "Security Features",
         "Analytics Integration"
       ],
-      startingPrice: "1,999",
+      startingPrice: "250",
       popular: true
     },
     {
@@ -45,7 +45,8 @@ const PricingSection = () => {
         "API Integration",
         "App Store Submission"
       ],
-      startingPrice: "4,999"
+      startingPrice: "300",
+      popular: true
     },
     {
       icon: <PenTool className="w-12 h-12" />,
@@ -59,7 +60,8 @@ const PricingSection = () => {
         "Print-ready Files",
         "Source Files Included"
       ],
-      startingPrice: "999"
+      startingPrice: "15",
+      popular: true
     }
   ];
 
@@ -132,7 +134,7 @@ const PricingSection = () => {
                 </ul>
 
                 {/* CTA Button */}
-                <button className="w-full group bg-gray-50 hover:bg-blue-500 text-gray-900 hover:text-white rounded-lg py-3 px-6 font-semibold transition-colors duration-200 flex items-center justify-center">
+                <button className="w-full group bg-blue-200 hover:bg-blue-500 text-gray-900 hover:text-white rounded-lg py-3 px-6 font-semibold transition-colors duration-200 flex items-center justify-center">
                   Get Started
                   <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
                 </button>
@@ -142,7 +144,7 @@ const PricingSection = () => {
         </div>
 
         {/* Contact Banner */}
-        <div className="mt-16 text-center bg-blue-50 rounded-xl p-8">
+        <div className="mt-16 text-center bg-blue-100 rounded-xl p-8">
           <h3 className="text-2xl font-bold text-gray-900 mb-4">Need a Custom Solution?</h3>
           <p className="text-gray-600 mb-6">
             Let's discuss your specific requirements and create a tailored package for your business.
