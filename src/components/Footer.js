@@ -14,8 +14,8 @@ const Footer = () => {
             <div className="space-y-6">
               {/* Logo */}
               <div className="flex items-center">
-                <div className="w-8 h-8 bg-[#292d6e] rounded-lg flex items-center justify-center mr-2">
-                  <div className="w-4 h-4 border-2 border-white rotate-45"></div>
+                <div className="mr-2">
+                  <img src="./favicon.png" alt='logo' className="rounded-3xl h-10 w-auto sm:h-12"/>
                 </div>
                 <div className="flex items-baseline">
                   <span className="text-2xl font-bold text-white">Olam</span>
