@@ -1,5 +1,5 @@
 import React from 'react';
-import { MessageSquare, Bot, Database, Users, BarChart, ChevronRight, School, PhoneCall, Smartphone } from 'lucide-react';
+import { MessageSquare, Bot, Database, Users, BarChart, ChevronRight, School, PhoneCall, BotIcon } from 'lucide-react';
 import PagesHeroSection from '../components/PagesHeroSection';
 
 const ShuleKiganjani = () => {
@@ -58,19 +58,23 @@ const ShuleKiganjani = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <Smartphone className="w-6 h-6 text-[#84c43f]" />
+                <BotIcon className="w-6 h-6 text-[#84c43f]" />
                 <span className="text-[#84c43f] uppercase tracking-wider text-sm font-bold">WHATSAPP SCHOOL BOT</span>
               </div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Automate Your School's Communication & Management</h2>
               <p className="text-gray-600 mb-8" style={{lineHeight:'1.9'}}>Shule Kiganjani is a powerful WhatsApp-integrated chatbot that streamlines school operations, enhances communication, and provides exceptional customer service. Connect with students and parents instantly through their preferred messaging platform.</p>
               <div className="flex gap-4">
-                <button className="bg-[#84c43f] hover:bg-[#6da32f] text-white px-6 py-3 rounded-lg flex items-center transition-colors">
-                  Request Service
-                  <ChevronRight className="ml-2 w-4 h-4" />
-                </button>
-                <button className="border-2 border-[#84c43f] text-[#84c43f] px-6 py-3 rounded-lg hover:bg-[#84c43f] hover:text-white transition-colors">
+                <a href='/contact'>
+                  <button className="bg-blue-600 hover:bg-blue-800 text-white px-6 py-3 rounded-lg flex items-center transition-colors">
+                    Request Service
+                    <ChevronRight className="ml-2 w-4 h-4" />
+                  </button>
+                </a>
+                <a href='#demo-videos'>
+                <button className="border-2 border-blue-600 text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-600 hover:text-white transition-colors">
                   Watch Demo
                 </button>
+                </a>
               </div>
             </div>
             <div className="relative">
@@ -167,29 +171,13 @@ const ShuleKiganjani = () => {
                 </li>
               </ul>
             </div>
-            {/* <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-4">Communication</h3>
-              <ul className="space-y-3">
-                <li className="flex items-center gap-2">
-                  <ChevronRight className="w-5 h-5 text-[#84c43f]" />
-                  <span>Event notifications</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <ChevronRight className="w-5 h-5 text-[#84c43f]" />
-                  <span>Fee reminders</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <ChevronRight className="w-5 h-5 text-[#84c43f]" />
-                  <span>Emergency alerts</span>
-                </li>
-              </ul>
-            </div> */}
+           
           </div>
         </div>
       </section>
 
       {/* Demo Videos Section */}
-      <section className="py-16">
+      <section className="py-16" id='demo-videos'>
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
             <div className="flex items-center justify-center gap-2 mb-4">
@@ -220,18 +208,11 @@ const ShuleKiganjani = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-[#6db1d8]">
+      <section className="py-16 bg-blue-200">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold text-white mb-6">Ready to Modernize Your School's Communication?</h2>
-          <p className="text-white mb-8 max-w-2xl mx-auto">Join schools already using Shule Kiganjani to enhance their operations and parent engagement.</p>
-          <div className="flex gap-4 justify-center">
-            <button className="bg-white text-[#84c43f] hover:bg-gray-100 px-6 py-3 rounded-lg transition-colors">
-              Request Service
-            </button>
-            <button className="border-2 border-white text-white hover:bg-white hover:text-[#84c43f] px-6 py-3 rounded-lg transition-colors">
-              See Demo
-            </button>
-          </div>
+          <h2 className="text-3xl font-bold text-black mb-6">Ready to Modernize Your School's Communication?</h2>
+          <p className="text-gray-600 mb-8 max-w-2xl mx-auto">Join schools already using Shule Kiganjani to enhance their operations and parent engagement.</p>
+          
         </div>
       </section>
     </div>

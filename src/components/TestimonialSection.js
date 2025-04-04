@@ -6,8 +6,8 @@ const TestimonialSection = () => {
     {
       id: 1,
       name: "Sarah Johnson",
-      position: "CTO, TechCorp",
-      image: "./images/new2.png",
+      position: "CEO, TechCorp",
+      image: "./images/jason.jpg",
       content: "Olam Technologies transformed our IT infrastructure completely. Their emergency solutions and reliable team helped us achieve our digital transformation goals ahead of schedule.",
       rating: 5
     },
@@ -15,7 +15,7 @@ const TestimonialSection = () => {
       id: 2,
       name: "Michael Chen",
       position: "Operations Director, InnovateCo",
-      image: "./images/new2.png",
+      image: "./images/jason.jpg",
       content: "The affordable pricing and expert team at Olam made our transition to cloud services seamless. They've been instrumental in our company's growth.",
       rating: 5
     },
@@ -23,7 +23,7 @@ const TestimonialSection = () => {
       id: 3,
       name: "Emily Rodriguez",
       position: "CEO, StartupHub",
-      image: "./images/new2.png",
+      image: "./images/jason.jpg",
       content: "Working with Olam Technologies has been a game-changer. Their experienced team provided solutions that perfectly aligned with our business needs.",
       rating: 5
     }

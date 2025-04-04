@@ -1,5 +1,5 @@
 import React from "react";
-// import Login from "./components/Login";
+
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
@@ -10,6 +10,7 @@ import Services from "./pages/Services";
 import Projects from "./pages/Projects";
 import ShuleKiganjani from "./pages/ShuleKiganjani";
 import Gallery from "./pages/Gallery";
+import NotFound from "./pages/NotFound";
 
 
 function App(){
@@ -27,6 +28,7 @@ function App(){
                     <Route path='/projects' element={<Projects />} />
                     <Route path='/gallery' element={<Gallery />} />
                     <Route path='services/shule-kiganjani' element={<ShuleKiganjani />} />
+                    <Route path='*' element={<NotFound />} />
                 </Routes>
                 <Footer />
             </Router>

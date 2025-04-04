@@ -1,18 +1,18 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { 
-  FaFacebookF, 
-  FaTwitter, 
+  FaFacebookF,  
   FaLinkedinIn, 
   FaInstagram,
   FaChevronLeft,
   FaChevronRight
 } from 'react-icons/fa';
+import { SiX } from 'react-icons/si';
 
 const teamMembers = [
   {
     name: 'Jackson Rwegasira',
     role: 'CEO & Founder',
-    image: './images/new2.png',
+    image: './images/jason.jpg',
     socials: {
       facebook: '#',
       twitter: '#',
@@ -22,8 +22,8 @@ const teamMembers = [
   },
   {
     name: 'Joan Rhobi',
-    role: 'Chief Technology Officer (Chatbot & Frontend developer)',
-    image: './images/new2.png',
+    role: 'Chief Technology Officer (Chatbot developer)',
+    image: './images/joan.jpg',
     socials: {
       facebook: '#',
       twitter: '#',
@@ -33,8 +33,8 @@ const teamMembers = [
   },
   {
     name: 'Rwegasira Byabato',
-    role: 'Project Manager (Chatbot & Backend developer)',
-    image: './images/new2.png',
+    role: 'Project Manager (Chatbot developer)',
+    image: './images/mufasa.jpg',
     socials: {
       facebook: '#',
       twitter: '#',
@@ -44,8 +44,8 @@ const teamMembers = [
   },
   {
     name: 'Dionis Lenga',
-    role: ' Head of Design (Graphics Designer | Chatbot  & Frontend Developer)',
-    image: './images/new2.png',
+    role: ' Head of Design (Graphics Designer & FullStack Developer)',
+    image: './images/dior.jpg',
     socials: {
       facebook: '#',
       twitter: '#',
@@ -56,7 +56,7 @@ const teamMembers = [
   {
     name: 'Justo Matiku',
     role: 'Finance Manager',
-    image: './images/new2.png',
+    image: './images/justo.jpg',
     socials: {
       facebook: '#',
       twitter: '#',
@@ -66,19 +66,8 @@ const teamMembers = [
   },
   {
     name: 'Johansen Mwijage',
-    role: 'Creative Director ( Graphics Designer | Chatbot & Backend Developer)',
-    image: './images/new2.png',
-    socials: {
-      facebook: '#',
-      twitter: '#',
-      linkedin: '#',
-      instagram: '#'
-    }
-  },
-  {
-    name: 'Edmund Ngowi',
-    role: 'Chatbot & Backend Developer',
-    image: './images/new2.png',
+    role: 'Creative Director ( Graphics Designer & Chatbot Developer)',
+    image: './images/johansen.jpg',
     socials: {
       facebook: '#',
       twitter: '#',
@@ -89,7 +78,7 @@ const teamMembers = [
   {
     name: 'Jolene Msuya',
     role: 'Chatbot & Application Developer',
-    image: './images/new2.png',
+    image: './images/jolene.jpg',
     socials: {
       facebook: '#',
       twitter: '#',
@@ -100,7 +89,7 @@ const teamMembers = [
   {
     name: 'David Kiwelu',
     role: 'Chatbot & Application Developer',
-    image: './images/new2.png',
+    image: './images/kiwelu.jpg',
     socials: {
       facebook: '#',
       twitter: '#',
@@ -111,7 +100,7 @@ const teamMembers = [
   {
     name: 'Richardson Pilot',
     role: 'Chatbot & Frontend Developer',
-    image: './images/new2.png',
+    image: './images/rich.jpg',
     socials: {
       facebook: '#',
       twitter: '#',
@@ -122,18 +111,7 @@ const teamMembers = [
   {
     name: 'Glory Foya',
     role: 'Chatbot & Backend Developer',
-    image: './images/new2.png',
-    socials: {
-      facebook: '#',
-      twitter: '#',
-      linkedin: '#',
-      instagram: '#'
-    }
-  },
-  {
-    name: 'Kenneth Pius',
-    role: 'Chatbot & Backend Developer',
-    image: './images/new2.png',
+    image: './images/glory.png',
     socials: {
       facebook: '#',
       twitter: '#',
@@ -144,7 +122,7 @@ const teamMembers = [
   {
     name: 'Sumaiya Kileo',
     role: 'Chatbot & Frontend Developer',
-    image: './images/new2.png',
+    image: './images/sumaiya.jpg',
     socials: {
       facebook: '#',
       twitter: '#',
@@ -155,7 +133,7 @@ const teamMembers = [
   {
     name: 'Sabra Panduka',
     role: 'Partnerships and Collaborations Manager',
-    image: './images/new2.png',
+    image: './images/sabra.jpg',
     socials: {
       facebook: '#',
       twitter: '#',
@@ -164,20 +142,9 @@ const teamMembers = [
     }
   },
   {
-    name: 'Faraja Mwarabu',
-    role: 'Marketing Specialist',
-    image: './images/new2.png',
-    socials: {
-      facebook: '#',
-      twitter: '#',
-      linkedin: '#',
-      instagram: '#'
-    }
-  },
-  {
-    name: 'Joan Misso',
+    name: 'Stellah Alberts',
     role: 'Digital Marketing Manager',
-    image: './images/new2.png',
+    image: './images/stellah.jpg',
     socials: {
       facebook: '#',
       twitter: '#',
@@ -292,7 +259,7 @@ const TeamMembers = () => {
                         href={member.socials.twitter} 
                         className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-blue-400 hover:bg-blue-400 hover:text-white transition-all duration-300"
                       >
-                        <FaTwitter className="w-5 h-5" />
+                        <SiX className="w-5 h-5" />
                       </a>
                       <a 
                         href={member.socials.linkedin} 
