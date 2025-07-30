@@ -23,7 +23,6 @@ const Contact = () => {
               <div>
                 <h3 className="font-semibold text-lg mb-2">Phone Number</h3>
                 <p className="text-gray-600">+255 627 404 843</p>
-                <p className="text-gray-600">+255 627 404 843</p>
               </div>
             </div>
             
@@ -34,7 +33,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-semibold text-lg mb-2">Email Address</h3>
-                <a href="mailto:olamtechnologies.co@gmail.com"className="text-blue-600">olamtechnologies.co@gmail.com</a>
+                <a href="mailto:olamtechnologies.co@gmail.com"className="text-blue-600">info@olamtec.co.tz</a>
                 
               </div>
             </div>
@@ -46,7 +45,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-semibold text-lg mb-2">Office Address</h3>
-                <p className="text-gray-600">25 Hilton Street, Kinondoni</p>
+                <p className="text-gray-600">Ennovate Ventures, Mbezi Shule</p>
                 <p className="text-gray-600">Dar es salaam, Tanzania</p>
               </div>
             </div>

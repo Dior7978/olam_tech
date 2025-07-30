@@ -22,8 +22,41 @@ const teamMembers = [
   },
   {
     name: 'Joan Rhobi',
-    role: 'Chief Technology Officer (Chatbot developer)',
+    role: 'Chief Stratergies Officer ',
     image: './images/joan.jpg',
+    socials: {
+      facebook: '#',
+      twitter: '#',
+      linkedin: '#',
+      instagram: '#'
+    }
+  },
+    {
+    name: 'Marko Chikongoye',
+    role: 'Chief Financial Officer',
+    image: './images/marko.jpg',
+    socials: {
+      facebook: '#',
+      twitter: '#',
+      linkedin: '#',
+      instagram: '#'
+    }
+  },
+    {
+    name: 'Egbert Chomba',
+    role: 'Chief Operating Officer',
+    image: './images/chomba.jpg',
+    socials: {
+      facebook: '#',
+      twitter: '#',
+      linkedin: '#',
+      instagram: '#'
+    }
+  },
+    {
+    name: 'Kelvin Kweka',
+    role: 'Chief Marketing Officer',
+    image: './images/kweka.jpg',
     socials: {
       facebook: '#',
       twitter: '#',
@@ -33,7 +66,7 @@ const teamMembers = [
   },
   {
     name: 'Rwegasira Byabato',
-    role: 'Project Manager (Chatbot developer)',
+    role: 'System admin',
     image: './images/mufasa.jpg',
     socials: {
       facebook: '#',
@@ -44,7 +77,7 @@ const teamMembers = [
   },
   {
     name: 'Dionis Lenga',
-    role: ' Head of Design (Graphics Designer & FullStack Developer)',
+    role: 'Developer, Graphics Designer',
     image: './images/dior.jpg',
     socials: {
       facebook: '#',
@@ -54,9 +87,9 @@ const teamMembers = [
     }
   },
   {
-    name: 'Justo Matiku',
+    name: 'Norah Ajuna',
     role: 'Finance Manager',
-    image: './images/justo.jpg',
+    image: './images/norah.jpg',
     socials: {
       facebook: '#',
       twitter: '#',
@@ -66,7 +99,7 @@ const teamMembers = [
   },
   {
     name: 'Johansen Mwijage',
-    role: 'Creative Director ( Graphics Designer & Chatbot Developer)',
+    role: 'System admin, Graphics Designer',
     image: './images/johansen.jpg',
     socials: {
       facebook: '#',
@@ -77,7 +110,7 @@ const teamMembers = [
   },
   {
     name: 'Jolene Msuya',
-    role: 'Chatbot & Application Developer',
+    role: 'System admin',
     image: './images/jolene.jpg',
     socials: {
       facebook: '#',
@@ -88,7 +121,7 @@ const teamMembers = [
   },
   {
     name: 'David Kiwelu',
-    role: 'Chatbot & Application Developer',
+    role: 'System admin',
     image: './images/kiwelu.jpg',
     socials: {
       facebook: '#',
@@ -99,7 +132,7 @@ const teamMembers = [
   },
   {
     name: 'Richardson Pilot',
-    role: 'Chatbot & Frontend Developer',
+    role: 'System admin',
     image: './images/rich.jpg',
     socials: {
       facebook: '#',
@@ -110,7 +143,7 @@ const teamMembers = [
   },
   {
     name: 'Glory Foya',
-    role: 'Chatbot & Backend Developer',
+    role: 'Developer, System admin',
     image: './images/glory.png',
     socials: {
       facebook: '#',
@@ -121,7 +154,7 @@ const teamMembers = [
   },
   {
     name: 'Sumaiya Kileo',
-    role: 'Chatbot & Frontend Developer',
+    role: 'System admin',
     image: './images/sumaiya.jpg',
     socials: {
       facebook: '#',
@@ -131,8 +164,19 @@ const teamMembers = [
     }
   },
   {
+    name: 'Utwah Mwingira',
+    role: 'System admin',
+    image: './images/utwah.jpg',
+    socials: {
+      facebook: '#',
+      twitter: '#',
+      linkedin: '#',
+      instagram: '#'
+    }
+  },
+  {
     name: 'Sabra Panduka',
-    role: 'Partnerships and Collaborations Manager',
+    role: 'Marketing Officer',
     image: './images/sabra.jpg',
     socials: {
       facebook: '#',
@@ -143,7 +187,7 @@ const teamMembers = [
   },
   {
     name: 'Stellah Alberts',
-    role: 'Digital Marketing Manager',
+    role: 'Marketing Officer',
     image: './images/stellah.jpg',
     socials: {
       facebook: '#',

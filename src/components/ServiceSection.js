@@ -1,5 +1,5 @@
 import React from 'react';
-import { Bot, Globe, Smartphone, Palette } from 'lucide-react';
+import { Bot, Globe } from 'lucide-react';
 
 const ServiceCard = ({ icon: Icon, title, description }) => (
   <div className="bg-white p-8 rounded-lg shadow-md transition-shadow">
@@ -15,9 +15,9 @@ const ServiceSection = () => {
   const services = [
     {
       icon: Bot,
-      title: "AI Chatbot Development",
+      title: "School Management System",
       description:
-        "Create intelligent chatbots to automate communication, enhance efficiency, and streamline customer service.",
+        "Our School Management System is a user-friendly , dynamic web platform designed to streamline administration, enhence communication and bring your vision for a modern educational environment to life .",
     },
     {
       icon: Globe,
@@ -25,17 +25,7 @@ const ServiceSection = () => {
       description:
         "Design and develop user-friendly, dynamic websites that cater to your unique needs and bring your vision to life.",
     },
-    {
-      icon: Smartphone,
-      title: "Application Development",
-      description:
-        "Develop custom mobile applications for Android and iOS platforms, tailored to your specific requirements and project goals.",
-    },
-    {
-      icon: Palette,
-      title: "Graphic Design",
-      description: "Create engaging visual designs, including posters and other event materials, that incorporate your specific branding.",
-    },
+    
   ];
 
   return (
